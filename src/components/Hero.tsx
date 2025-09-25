@@ -43,7 +43,7 @@ const Hero = () => {
           <h1 className="text-4xl sm:text-5xl lg:text-7xl font-heading font-bold mb-6 animate-fade-in-up">
             <span className="text-gradient">SAI — Smart AI:</span>
             <br />
-            <span className="text-foreground">10x–100x AI-Accelerated</span>
+            <span className="text-foreground">100x AI-Accelerated</span>
             <br />
             <span className="text-foreground">Software Delivery</span>
           </h1>

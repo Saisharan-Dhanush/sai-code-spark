@@ -70,7 +70,7 @@ const Footer = () => {
               </div>
               
               <p className="text-muted-foreground mb-6 leading-relaxed">
-                Enterprise AI-development platform delivering 10x–100x faster software delivery 
+                Enterprise AI-development platform delivering 100x faster software delivery
                 through AI-augmented Agile development and project-specific AI agents.
               </p>
 
@@ -216,7 +216,7 @@ const Footer = () => {
               "@context": "https://schema.org",
               "@type": "Organization",
               "name": "SAI (Smart AI)",
-              "description": "Enterprise AI-development platform delivering 10x–100x faster software delivery through AI-augmented Agile development",
+              "description": "Enterprise AI-development platform delivering 100x faster software delivery through AI-augmented Agile development",
               "url": "https://sai.dev",
               "logo": "https://sai.dev/logo.png",
               "contactPoint": {
