@@ -22,6 +22,13 @@ This is a React + Vite + TypeScript landing page for SAI (Smart AI), featuring A
   - Added production `start` script using `vite preview`
   - Configured deployment settings for autoscale
   - Verified all dependencies and build process
+  - Added three new pages: Waitlist, Problem Statement, and MVP Demo Request
+  - Updated Header navigation with new page links
+  - Fixed Vite configuration with `allowedHosts: true` for Replit
+  - All pages follow consistent dark theme with neon gradients
+
+## Notes
+- User dismissed GitHub integration setup - manual git operations needed for future pushes
 
 ## Key Features
 The landing page includes:
