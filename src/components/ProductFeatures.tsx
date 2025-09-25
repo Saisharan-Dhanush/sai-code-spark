@@ -109,73 +109,193 @@ const ProductFeatures = () => {
           ))}
         </div>
 
-        {/* Full-Stack Development & MCP Integration */}
-        <div className="mb-20">
-          <div className="text-center mb-12">
-            <h3 className="text-2xl sm:text-3xl font-heading font-bold mb-4">
+        {/* Development of Anything - Enhanced Interactive Section */}
+        <div className="mb-32">
+          <div className="text-center mb-16">
+            <h3 className="text-3xl sm:text-4xl lg:text-5xl font-heading font-bold mb-6">
               Development of <span className="text-gradient">Anything</span>
             </h3>
-            <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              Supporting development of ANYTHING in your company - from web apps with React.js and Tailwind CSS to enterprise systems with Spring Boot, Python, Java, C++, Go, Rust, and beyond. We automate ALL tasks in the development process, 100x-ing your speed with intelligent automation through MCP connections that seamlessly integrate AI into every aspect of your workflow.
+            <p className="text-xl text-muted-foreground max-w-5xl mx-auto leading-relaxed">
+              Supporting development of <span className="text-primary font-semibold">ANYTHING</span> in your company - from web apps with React.js and Tailwind CSS to enterprise systems with Spring Boot, Python, Java, C++, Go, Rust, and beyond. We automate <span className="text-primary font-semibold">ALL tasks</span> in the development process, 100x-ing your speed with intelligent automation through MCP connections.
             </p>
           </div>
           
-          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
-            <div className="glass-card p-6 rounded-xl">
-              <h4 className="text-xl font-heading font-semibold mb-4 text-gradient">Develop Anything</h4>
-              <ul className="text-sm text-muted-foreground space-y-2">
-                <li>• Web Apps: React.js, Vue.js, Angular</li>
-                <li>• Enterprise Systems: Spring Boot, Python</li>
-                <li>• Desktop Apps: Java, C++, Go, Rust</li>
-                <li>• Mobile Apps: Swift, Kotlin, Flutter</li>
-                <li>• AI/ML: TensorFlow, PyTorch</li>
-                <li>• IoT & Embedded Systems</li>
-              </ul>
+          {/* Interactive Development Capabilities */}
+          <div className="space-y-16">
+            
+            {/* Develop Anything */}
+            <div className="glass-card rounded-3xl overflow-hidden group hover:scale-[1.02] transition-all duration-500">
+              <div className="grid lg:grid-cols-2 gap-0">
+                <div className="relative overflow-hidden">
+                  <img 
+                    src="/attached_assets/stock_images/modern_software_deve_1ed9014a.jpg" 
+                    alt="Development Team" 
+                    className="w-full h-64 lg:h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-transparent" />
+                </div>
+                <div className="p-8 lg:p-12">
+                  <div className="flex items-center mb-6">
+                    <div className="flex items-center justify-center w-16 h-16 gradient-primary rounded-2xl mr-4">
+                      <Code className="h-8 w-8 text-background" />
+                    </div>
+                    <h4 className="text-3xl font-heading font-bold text-gradient">Develop Anything</h4>
+                  </div>
+                  <p className="text-muted-foreground mb-8 text-lg leading-relaxed">
+                    From simple web applications to complex enterprise systems, we support every technology stack and programming language your company needs.
+                  </p>
+                  <div className="grid grid-cols-2 gap-6">
+                    <div>
+                      <h5 className="font-semibold text-primary mb-3">Frontend & Web</h5>
+                      <ul className="text-sm text-muted-foreground space-y-2">
+                        <li>• React.js, Vue.js, Angular</li>
+                        <li>• Tailwind CSS, Bootstrap</li>
+                        <li>• TypeScript, JavaScript</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h5 className="font-semibold text-primary mb-3">Backend & Systems</h5>
+                      <ul className="text-sm text-muted-foreground space-y-2">
+                        <li>• Spring Boot, Python, Node.js</li>
+                        <li>• Java, C++, Go, Rust</li>
+                        <li>• AI/ML: TensorFlow, PyTorch</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
-            <div className="glass-card p-6 rounded-xl">
-              <h4 className="text-xl font-heading font-semibold mb-4 text-gradient">Automate All Tasks</h4>
-              <ul className="text-sm text-muted-foreground space-y-2">
-                <li>• Requirements analysis & planning</li>
-                <li>• Code generation & architecture</li>
-                <li>• Testing & quality assurance</li>
-                <li>• Documentation & deployment</li>
-                <li>• Monitoring & maintenance</li>
-                <li>• Bug fixes & optimization</li>
-              </ul>
+
+            {/* Automate All Tasks */}
+            <div className="glass-card rounded-3xl overflow-hidden group hover:scale-[1.02] transition-all duration-500">
+              <div className="grid lg:grid-cols-2 gap-0">
+                <div className="p-8 lg:p-12 order-2 lg:order-1">
+                  <div className="flex items-center mb-6">
+                    <div className="flex items-center justify-center w-16 h-16 gradient-secondary rounded-2xl mr-4">
+                      <Zap className="h-8 w-8 text-background" />
+                    </div>
+                    <h4 className="text-3xl font-heading font-bold text-gradient">Automate All Tasks</h4>
+                  </div>
+                  <p className="text-muted-foreground mb-8 text-lg leading-relaxed">
+                    Every single step of your development process is automated - from initial requirements gathering to final deployment and monitoring.
+                  </p>
+                  <div className="grid grid-cols-2 gap-6">
+                    <div>
+                      <h5 className="font-semibold text-secondary mb-3">Development Phase</h5>
+                      <ul className="text-sm text-muted-foreground space-y-2">
+                        <li>• Requirements analysis</li>
+                        <li>• Code generation</li>
+                        <li>• Architecture design</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h5 className="font-semibold text-secondary mb-3">Operations Phase</h5>
+                      <ul className="text-sm text-muted-foreground space-y-2">
+                        <li>• Testing & QA automation</li>
+                        <li>• Documentation & deployment</li>
+                        <li>• Monitoring & maintenance</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+                <div className="relative overflow-hidden order-1 lg:order-2">
+                  <img 
+                    src="/attached_assets/stock_images/ai_automation_and_ro_2a0b66ae.jpg" 
+                    alt="AI Automation" 
+                    className="w-full h-64 lg:h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-l from-secondary/20 to-transparent" />
+                </div>
+              </div>
             </div>
-            <div className="glass-card p-6 rounded-xl">
-              <h4 className="text-xl font-heading font-semibold mb-4 text-gradient">MCP-Powered Automation</h4>
-              <ul className="text-sm text-muted-foreground space-y-2">
-                <li>• Database & storage automation</li>
-                <li>• API & service integration</li>
-                <li>• CI/CD pipeline automation</li>
-                <li>• Monitoring & alerting systems</li>
-                <li>• Security & compliance checks</li>
-                <li>• Performance optimization</li>
-              </ul>
+
+            {/* MCP-Powered Automation */}
+            <div className="glass-card rounded-3xl overflow-hidden group hover:scale-[1.02] transition-all duration-500">
+              <div className="grid lg:grid-cols-2 gap-0">
+                <div className="relative overflow-hidden">
+                  <img 
+                    src="/attached_assets/stock_images/mcp_server_connectio_d32b2351.jpg" 
+                    alt="MCP Network" 
+                    className="w-full h-64 lg:h-full object-cover group-hover:scale-110 transition-transform duration-700"
+                  />
+                  <div className="absolute inset-0 bg-gradient-to-r from-primary/30 to-secondary/20" />
+                </div>
+                <div className="p-8 lg:p-12">
+                  <div className="flex items-center mb-6">
+                    <div className="flex items-center justify-center w-16 h-16 gradient-primary rounded-2xl mr-4">
+                      <Workflow className="h-8 w-8 text-background" />
+                    </div>
+                    <h4 className="text-3xl font-heading font-bold text-gradient">MCP-Powered Automation</h4>
+                  </div>
+                  <p className="text-muted-foreground mb-8 text-lg leading-relaxed">
+                    Model Context Protocol (MCP) connections enable seamless integration with databases, APIs, and services, automating every aspect of your infrastructure.
+                  </p>
+                  <div className="grid grid-cols-2 gap-6">
+                    <div>
+                      <h5 className="font-semibold text-primary mb-3">Infrastructure</h5>
+                      <ul className="text-sm text-muted-foreground space-y-2">
+                        <li>• Database automation</li>
+                        <li>• API integrations</li>
+                        <li>• CI/CD pipelines</li>
+                      </ul>
+                    </div>
+                    <div>
+                      <h5 className="font-semibold text-primary mb-3">Operations</h5>
+                      <ul className="text-sm text-muted-foreground space-y-2">
+                        <li>• Monitoring & alerting</li>
+                        <li>• Security & compliance</li>
+                        <li>• Performance optimization</li>
+                      </ul>
+                    </div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
 
 
-        {/* Vision & Mission */}
-        <div className="mb-20">
-          <div className="grid lg:grid-cols-2 gap-12">
-            <div className="glass-card p-8 rounded-2xl">
-              <h3 className="text-2xl font-heading font-bold mb-6">
-                Our <span className="text-gradient">Vision</span>
-              </h3>
-              <p className="text-muted-foreground leading-relaxed">
-                To revolutionize software development by creating AI-powered platforms that seamlessly integrate with existing workflows, making intelligent development accessible to teams of all sizes while maintaining enterprise-grade security and performance standards.
-              </p>
+        {/* Vision & Mission - Enhanced with Image */}
+        <div id="about" className="mb-32">
+          <div className="glass-card rounded-3xl overflow-hidden">
+            <div className="relative">
+              <img 
+                src="/attached_assets/stock_images/business_team_vision_c7da29b1.jpg" 
+                alt="Vision and Mission" 
+                className="w-full h-80 object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-background via-background/50 to-transparent" />
+              <div className="absolute bottom-0 left-0 right-0 p-8">
+                <h3 className="text-4xl font-heading font-bold text-center mb-4">
+                  Our <span className="text-gradient">Vision & Mission</span>
+                </h3>
+              </div>
             </div>
-            <div className="glass-card p-8 rounded-2xl">
-              <h3 className="text-2xl font-heading font-bold mb-6">
-                Our <span className="text-gradient">Mission</span>
-              </h3>
-              <p className="text-muted-foreground leading-relaxed">
-                We empower development teams by providing AI agents that understand project context, integrate with all major development tools, and accelerate productivity by 100x. Our mission is to make AI adaptation effortless in your workflow while ensuring robust, scalable, and secure application development.
-              </p>
+            <div className="p-8 lg:p-16">
+              <div className="grid lg:grid-cols-2 gap-16">
+                <div className="text-center lg:text-left">
+                  <div className="flex items-center justify-center lg:justify-start mb-6">
+                    <div className="flex items-center justify-center w-12 h-12 gradient-primary rounded-xl mr-4">
+                      <BarChart3 className="h-6 w-6 text-background" />
+                    </div>
+                    <h4 className="text-3xl font-heading font-bold text-gradient">Vision</h4>
+                  </div>
+                  <p className="text-muted-foreground leading-relaxed text-lg">
+                    To revolutionize software development by creating AI-powered platforms that seamlessly integrate with existing workflows, making intelligent development accessible to teams of all sizes while maintaining enterprise-grade security and performance standards.
+                  </p>
+                </div>
+                <div className="text-center lg:text-left">
+                  <div className="flex items-center justify-center lg:justify-start mb-6">
+                    <div className="flex items-center justify-center w-12 h-12 gradient-secondary rounded-xl mr-4">
+                      <Users className="h-6 w-6 text-background" />
+                    </div>
+                    <h4 className="text-3xl font-heading font-bold text-gradient">Mission</h4>
+                  </div>
+                  <p className="text-muted-foreground leading-relaxed text-lg">
+                    We empower development teams by providing AI agents that understand project context, integrate with all major development tools, and accelerate productivity by 100x. Our mission is to make AI adaptation effortless in your workflow while ensuring robust, scalable, and secure application development.
+                  </p>
+                </div>
+              </div>
             </div>
           </div>
         </div>

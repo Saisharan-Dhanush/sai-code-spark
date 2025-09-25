@@ -7,10 +7,11 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   const navigation = [
-    { name: "Product", href: "#product" },
-    { name: "How it Works", href: "#how-it-works" },
-    { name: "Problem", href: "/problem-statement" },
+    { name: "Solution", href: "#how-it-works" },
+    { name: "Features", href: "#product" },
+    { name: "Demo", href: "#demo" },
     { name: "Pricing", href: "#pricing" },
+    { name: "About", href: "#about" },
   ];
 
   return (
@@ -55,7 +56,7 @@ const Header = () => {
           {/* CTA Buttons */}
           <div className="hidden md:flex items-center space-x-4">
             <Button asChild variant="hero" size="sm">
-              <Link to="/waitlist">Join Waitlist</Link>
+              <Link to="/waitlist">Request Demo</Link>
             </Button>
           </div>
 
@@ -98,7 +99,7 @@ const Header = () => {
               ))}
               <div className="flex flex-col space-y-2 mt-4">
                 <Button asChild variant="hero" className="justify-start">
-                  <Link to="/waitlist" onClick={() => setIsMenuOpen(false)}>Join Waitlist</Link>
+                  <Link to="/waitlist" onClick={() => setIsMenuOpen(false)}>Request Demo</Link>
                 </Button>
               </div>
             </div>
