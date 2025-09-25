@@ -109,7 +109,49 @@ const ProductFeatures = () => {
           ))}
         </div>
 
-        {/* Integrations */}
+        {/* Full-Stack Development & MCP Integration */}
+        <div className="mb-20">
+          <div className="text-center mb-12">
+            <h3 className="text-2xl sm:text-3xl font-heading font-bold mb-4">
+              Full-Stack <span className="text-gradient">Development</span>
+            </h3>
+            <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
+              Supporting all languages like React.js, Tailwind CSS, Spring Boot, and all full-stack frameworks for complete app development. We connect all MCPs required during application development, making AI easy to adapt in your workflow and increasing performance by 100x.
+            </p>
+          </div>
+          
+          <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
+            <div className="glass-card p-6 rounded-xl">
+              <h4 className="text-xl font-heading font-semibold mb-4 text-gradient">Frontend Technologies</h4>
+              <ul className="text-sm text-muted-foreground space-y-2">
+                <li>• React.js, Vue.js, Angular</li>
+                <li>• Tailwind CSS, Bootstrap</li>
+                <li>• TypeScript, JavaScript</li>
+                <li>• Next.js, Vite, Webpack</li>
+              </ul>
+            </div>
+            <div className="glass-card p-6 rounded-xl">
+              <h4 className="text-xl font-heading font-semibold mb-4 text-gradient">Backend Technologies</h4>
+              <ul className="text-sm text-muted-foreground space-y-2">
+                <li>• Spring Boot, Node.js</li>
+                <li>• Python, Java, Go</li>
+                <li>• Express, FastAPI</li>
+                <li>• Microservices, REST APIs</li>
+              </ul>
+            </div>
+            <div className="glass-card p-6 rounded-xl">
+              <h4 className="text-xl font-heading font-semibold mb-4 text-gradient">MCP Connections</h4>
+              <ul className="text-sm text-muted-foreground space-y-2">
+                <li>• Database MCPs</li>
+                <li>• API Integration MCPs</li>
+                <li>• DevOps & CI/CD MCPs</li>
+                <li>• Monitoring & Analytics</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+
+        {/* Seamless Integrations */}
         <div className="mb-20">
           <div className="text-center mb-12">
             <h3 className="text-2xl sm:text-3xl font-heading font-bold mb-4">
@@ -132,6 +174,28 @@ const ProductFeatures = () => {
                 </div>
               </div>
             ))}
+          </div>
+        </div>
+
+        {/* Vision & Mission */}
+        <div className="mb-20">
+          <div className="grid lg:grid-cols-2 gap-12">
+            <div className="glass-card p-8 rounded-2xl">
+              <h3 className="text-2xl font-heading font-bold mb-6">
+                Our <span className="text-gradient">Vision</span>
+              </h3>
+              <p className="text-muted-foreground leading-relaxed">
+                To revolutionize software development by creating AI-powered platforms that seamlessly integrate with existing workflows, making intelligent development accessible to teams of all sizes while maintaining enterprise-grade security and performance standards.
+              </p>
+            </div>
+            <div className="glass-card p-8 rounded-2xl">
+              <h3 className="text-2xl font-heading font-bold mb-6">
+                Our <span className="text-gradient">Mission</span>
+              </h3>
+              <p className="text-muted-foreground leading-relaxed">
+                We empower development teams by providing AI agents that understand project context, integrate with all major development tools, and accelerate productivity by 100x. Our mission is to make AI adaptation effortless in your workflow while ensuring robust, scalable, and secure application development.
+              </p>
+            </div>
           </div>
         </div>
 

@@ -19,9 +19,11 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <div className="text-2xl font-heading font-bold text-gradient">
-              SAI
-            </div>
+            <img 
+              src="/src/assets/sai-logo-new.png" 
+              alt="SAI - Smart AI" 
+              className="h-8 w-auto"
+            />
             <div className="ml-2 text-sm text-muted-foreground hidden sm:block">
               Smart AI
             </div>
