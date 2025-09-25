@@ -113,69 +113,50 @@ const ProductFeatures = () => {
         <div className="mb-20">
           <div className="text-center mb-12">
             <h3 className="text-2xl sm:text-3xl font-heading font-bold mb-4">
-              Full-Stack <span className="text-gradient">Development</span>
+              Development of <span className="text-gradient">Anything</span>
             </h3>
             <p className="text-lg text-muted-foreground max-w-4xl mx-auto">
-              Supporting all languages like React.js, Tailwind CSS, Spring Boot, and all full-stack frameworks for complete app development. We connect all MCPs required during application development, making AI easy to adapt in your workflow and increasing performance by 100x.
+              Supporting development of ANYTHING in your company - from web apps with React.js and Tailwind CSS to enterprise systems with Spring Boot, Python, Java, C++, Go, Rust, and beyond. We automate ALL tasks in the development process, 100x-ing your speed with intelligent automation through MCP connections that seamlessly integrate AI into every aspect of your workflow.
             </p>
           </div>
           
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8 mb-16">
             <div className="glass-card p-6 rounded-xl">
-              <h4 className="text-xl font-heading font-semibold mb-4 text-gradient">Frontend Technologies</h4>
+              <h4 className="text-xl font-heading font-semibold mb-4 text-gradient">Develop Anything</h4>
               <ul className="text-sm text-muted-foreground space-y-2">
-                <li>• React.js, Vue.js, Angular</li>
-                <li>• Tailwind CSS, Bootstrap</li>
-                <li>• TypeScript, JavaScript</li>
-                <li>• Next.js, Vite, Webpack</li>
+                <li>• Web Apps: React.js, Vue.js, Angular</li>
+                <li>• Enterprise Systems: Spring Boot, Python</li>
+                <li>• Desktop Apps: Java, C++, Go, Rust</li>
+                <li>• Mobile Apps: Swift, Kotlin, Flutter</li>
+                <li>• AI/ML: TensorFlow, PyTorch</li>
+                <li>• IoT & Embedded Systems</li>
               </ul>
             </div>
             <div className="glass-card p-6 rounded-xl">
-              <h4 className="text-xl font-heading font-semibold mb-4 text-gradient">Backend Technologies</h4>
+              <h4 className="text-xl font-heading font-semibold mb-4 text-gradient">Automate All Tasks</h4>
               <ul className="text-sm text-muted-foreground space-y-2">
-                <li>• Spring Boot, Node.js</li>
-                <li>• Python, Java, Go</li>
-                <li>• Express, FastAPI</li>
-                <li>• Microservices, REST APIs</li>
+                <li>• Requirements analysis & planning</li>
+                <li>• Code generation & architecture</li>
+                <li>• Testing & quality assurance</li>
+                <li>• Documentation & deployment</li>
+                <li>• Monitoring & maintenance</li>
+                <li>• Bug fixes & optimization</li>
               </ul>
             </div>
             <div className="glass-card p-6 rounded-xl">
-              <h4 className="text-xl font-heading font-semibold mb-4 text-gradient">MCP Connections</h4>
+              <h4 className="text-xl font-heading font-semibold mb-4 text-gradient">MCP-Powered Automation</h4>
               <ul className="text-sm text-muted-foreground space-y-2">
-                <li>• Database MCPs</li>
-                <li>• API Integration MCPs</li>
-                <li>• DevOps & CI/CD MCPs</li>
-                <li>• Monitoring & Analytics</li>
+                <li>• Database & storage automation</li>
+                <li>• API & service integration</li>
+                <li>• CI/CD pipeline automation</li>
+                <li>• Monitoring & alerting systems</li>
+                <li>• Security & compliance checks</li>
+                <li>• Performance optimization</li>
               </ul>
             </div>
           </div>
         </div>
 
-        {/* Seamless Integrations */}
-        <div className="mb-20">
-          <div className="text-center mb-12">
-            <h3 className="text-2xl sm:text-3xl font-heading font-bold mb-4">
-              Seamless <span className="text-gradient">Integrations</span>
-            </h3>
-            <p className="text-lg text-muted-foreground">
-              Works with your existing development workflow
-            </p>
-          </div>
-          
-          <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
-            {integrations.map((integration) => (
-              <div
-                key={integration.name}
-                className="glass-card p-6 rounded-xl text-center hover:scale-105 transition-bounce group"
-              >
-                <integration.icon className="h-8 w-8 mx-auto mb-3 text-primary group-hover:text-primary-glow transition-smooth" />
-                <div className="text-sm font-medium text-muted-foreground">
-                  {integration.name}
-                </div>
-              </div>
-            ))}
-          </div>
-        </div>
 
         {/* Vision & Mission */}
         <div className="mb-20">
