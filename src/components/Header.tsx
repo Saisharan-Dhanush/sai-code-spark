@@ -1,6 +1,7 @@
 import { useState } from "react";
 import { Button } from "@/components/ui/button";
 import { Menu, X } from "lucide-react";
+import { Link } from "react-router-dom";
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -8,6 +9,7 @@ const Header = () => {
   const navigation = [
     { name: "Product", href: "#product" },
     { name: "How it Works", href: "#how-it-works" },
+    { name: "Problem", href: "/problem-statement" },
     { name: "Pricing", href: "#pricing" },
   ];
 
@@ -28,23 +30,33 @@ const Header = () => {
           {/* Desktop Navigation */}
           <nav className="hidden md:flex items-center space-x-8">
             {navigation.map((item) => (
-              <a
-                key={item.name}
-                href={item.href}
-                className="text-muted-foreground hover:text-primary transition-smooth"
-              >
-                {item.name}
-              </a>
+              item.href.startsWith('#') ? (
+                <a
+                  key={item.name}
+                  href={item.href}
+                  className="text-muted-foreground hover:text-primary transition-smooth"
+                >
+                  {item.name}
+                </a>
+              ) : (
+                <Link
+                  key={item.name}
+                  to={item.href}
+                  className="text-muted-foreground hover:text-primary transition-smooth"
+                >
+                  {item.name}
+                </Link>
+              )
             ))}
           </nav>
 
           {/* CTA Buttons */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button variant="ghost" size="sm">
-              Sign In
+            <Button asChild variant="ghost" size="sm">
+              <Link to="/waitlist">Join Waitlist</Link>
             </Button>
-            <Button variant="hero" size="sm">
-              Request Demo
+            <Button asChild variant="hero" size="sm">
+              <Link to="/mvp-demo">Request Demo</Link>
             </Button>
           </div>
 
@@ -65,21 +77,32 @@ const Header = () => {
           <div className="md:hidden">
             <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 border-t border-primary/20 mt-4">
               {navigation.map((item) => (
-                <a
-                  key={item.name}
-                  href={item.href}
-                  className="block px-3 py-2 text-base font-medium text-muted-foreground hover:text-primary transition-smooth"
-                  onClick={() => setIsMenuOpen(false)}
-                >
-                  {item.name}
-                </a>
+                item.href.startsWith('#') ? (
+                  <a
+                    key={item.name}
+                    href={item.href}
+                    className="block px-3 py-2 text-base font-medium text-muted-foreground hover:text-primary transition-smooth"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    {item.name}
+                  </a>
+                ) : (
+                  <Link
+                    key={item.name}
+                    to={item.href}
+                    className="block px-3 py-2 text-base font-medium text-muted-foreground hover:text-primary transition-smooth"
+                    onClick={() => setIsMenuOpen(false)}
+                  >
+                    {item.name}
+                  </Link>
+                )
               ))}
               <div className="flex flex-col space-y-2 mt-4">
-                <Button variant="ghost" className="justify-start">
-                  Sign In
+                <Button asChild variant="ghost" className="justify-start">
+                  <Link to="/waitlist" onClick={() => setIsMenuOpen(false)}>Join Waitlist</Link>
                 </Button>
-                <Button variant="hero" className="justify-start">
-                  Request Demo
+                <Button asChild variant="hero" className="justify-start">
+                  <Link to="/mvp-demo" onClick={() => setIsMenuOpen(false)}>Request Demo</Link>
                 </Button>
               </div>
             </div>
