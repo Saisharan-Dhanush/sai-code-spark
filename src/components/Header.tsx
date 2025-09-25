@@ -52,11 +52,8 @@ const Header = () => {
 
           {/* CTA Buttons */}
           <div className="hidden md:flex items-center space-x-4">
-            <Button asChild variant="ghost" size="sm">
-              <Link to="/waitlist">Join Waitlist</Link>
-            </Button>
             <Button asChild variant="hero" size="sm">
-              <Link to="/mvp-demo">Request Demo</Link>
+              <Link to="/waitlist">Join Waitlist</Link>
             </Button>
           </div>
 
@@ -98,11 +95,8 @@ const Header = () => {
                 )
               ))}
               <div className="flex flex-col space-y-2 mt-4">
-                <Button asChild variant="ghost" className="justify-start">
-                  <Link to="/waitlist" onClick={() => setIsMenuOpen(false)}>Join Waitlist</Link>
-                </Button>
                 <Button asChild variant="hero" className="justify-start">
-                  <Link to="/mvp-demo" onClick={() => setIsMenuOpen(false)}>Request Demo</Link>
+                  <Link to="/waitlist" onClick={() => setIsMenuOpen(false)}>Join Waitlist</Link>
                 </Button>
               </div>
             </div>
