@@ -128,7 +128,7 @@ const ProductFeatures = () => {
               <div className="grid lg:grid-cols-2 gap-0">
                 <div className="relative overflow-hidden">
                   <img 
-                    src="/attached_assets/stock_images/modern_software_deve_1ed9014a.jpg" 
+                    src="/stock_images/modern_software_deve_1ed9014a.jpg" 
                     alt="Development Team" 
                     className="w-full h-64 lg:h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   />
@@ -200,7 +200,7 @@ const ProductFeatures = () => {
                 </div>
                 <div className="relative overflow-hidden order-1 lg:order-2">
                   <img 
-                    src="/attached_assets/stock_images/ai_automation_and_ro_2a0b66ae.jpg" 
+                    src="/stock_images/ai_automation_and_ro_2a0b66ae.jpg" 
                     alt="AI Automation" 
                     className="w-full h-64 lg:h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   />
@@ -214,7 +214,7 @@ const ProductFeatures = () => {
               <div className="grid lg:grid-cols-2 gap-0">
                 <div className="relative overflow-hidden">
                   <img 
-                    src="/attached_assets/stock_images/mcp_server_connectio_d32b2351.jpg" 
+                    src="/stock_images/mcp_server_connectio_d32b2351.jpg" 
                     alt="MCP Network" 
                     className="w-full h-64 lg:h-full object-cover group-hover:scale-110 transition-transform duration-700"
                   />
@@ -260,7 +260,7 @@ const ProductFeatures = () => {
           <div className="glass-card rounded-3xl overflow-hidden">
             <div className="relative">
               <img 
-                src="/attached_assets/stock_images/business_team_vision_c7da29b1.jpg" 
+                src="/stock_images/business_team_vision_c7da29b1.jpg" 
                 alt="Vision and Mission" 
                 className="w-full h-80 object-cover"
               />

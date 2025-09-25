@@ -21,7 +21,7 @@ const Header = () => {
           {/* Logo */}
           <div className="flex items-center">
             <img 
-              src="/src/assets/sai-logo-new.png" 
+              src="/sai-logo-new.png" 
               alt="SAI - Smart AI" 
               className="h-8 w-auto"
             />
